@@ -8,6 +8,7 @@ const Mensajes = ({objectMessage, index, isMe}) => {
       className={isMe ? "ContainerMessage me" : "ContainerMessage"}
     >
       <div className="isAMessage">
+        <p className="messageHS">{`${objectMessage.hora} Hs`}</p>
         <label
           className={
             objectMessage.moderador ? "nameMessage mod" : "nameMessage"
@@ -17,7 +18,6 @@ const Mensajes = ({objectMessage, index, isMe}) => {
             objectMessage.moderador ? "Moderador" : "Estudiante"
           }`}
         </label>
-        <p className="messageHS">{`Hora :  ${objectMessage.hora}`}</p>
         <p className="message">{objectMessage.mensaje}</p>
       </div>
     </div>
