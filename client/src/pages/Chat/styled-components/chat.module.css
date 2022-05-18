@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  height: 100%;
+}
+
+.chatBox {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+}
+.chatBoxBtn {
+  background-color: red;
+  width: 30%;
+  height: 5%;
+  border-radius: 10px;
+  margin: 10px;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+.chatBoxTitle {
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+.stream {
+  width: 70%;
+}
+
+.chatBoxBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20%;
+}
+
+.chatMessage {
+  width: 80%;
+  height: 90px;
+  padding: 10px;
+}
+
+.btnSend {
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 94, 0);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.chatBoxTop {
+  height: 100vh;
+  padding-right: 10px;
+  /* overflow: scroll; */
+}
+
+.onlyMenssages {
+  height: 80%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.video {
+  width: 70%;
+}
+
+.chatBoxWrawwer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
