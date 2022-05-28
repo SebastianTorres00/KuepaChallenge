@@ -17,7 +17,8 @@ const io = require("socket.io")(server, {
   },
 });
 
-const CONECTION_URL = "mongodb://localhost:27017";
+const CONECTION_URL =
+  "mongodb+srv://StOne:1234@cluster0.hbmtxfn.mongodb.net/test";
 const PORT = 27017;
 
 app.use(
